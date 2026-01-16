@@ -1,4 +1,108 @@
+
+* {
+   margin:0;
+   padding:0;
+   font-family:Arial,Roboto;
+}
+
 .heading {
    background-color:red;
    color:white;
+}
+
+
+.navbar {
+   display:flex;
+   background-color:rgb(79, 76, 249);
+   gap:4rem;
+   padding:1rem;
+   margin-bottom:15px;
+}
+
+.itask {
+   font-size:20px;
+   font-weight:bold;
+   color:white;
+}
+
+.menu {
+   display:flex;
+   background-color:rgb(79, 76, 249);
+   gap:4rem;
+   font-size:20px;
+   color:white;
+   position:absolute;
+   right:0px;
+   margin-right:5px;
+}
+/* //transition we apply on selectors not pseudo classes */
+.m1 , .m2 {
+   cursor:pointer;
+   transition:all 0.3s ease-in-out;
+}
+.m1:hover {
+   font-weight:bold;
+}
+.m2:hover {
+   font-weight:bold;
+}
+
+.outerdiv {
+   background-color:rgb(229, 210, 229);
+   height:70vh;
+   width:100vw;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   border-radius:50px;
+}
+
+.todoheading {
+   margin-bottom:20px;
+}
+
+.h2space {
+   margin-bottom:20px;
+}
+
+.innerdiv {
+     background-color:rgb(229, 210, 229);
+     height:70vh;
+}
+
+.inputbox {
+  font-size:15px;
+  padding:10px;
+  width:500px;
+  border-radius:250px;
+  border:none;
+}
+
+.div1 {
+   display:flex;
+   gap:0.5rem;
+   margin-bottom:20px;
+}
+
+.div2 {
+   display:flex;
+   margin-bottom:20px;
+   gap:0.5rem;
+}
+
+.div3 {
+   display:flex;
+   margin-bottom:20px;
+   gap:0.5rem;
+   font-size:15px;
+}
+
+.todo-btn {
+   padding:8px;
+   background-color:rgb(79, 76, 249);
+   color:white;
+   border-radius:20px;
+   font-weight: bold;
+   cursor:pointer;
+   border:none;
 }
