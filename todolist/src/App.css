@@ -104,13 +104,11 @@
 
 
 .list-data {
-   font-size:25px;
-   margin-bottom:10px;
+   font-size:20px;
+   margin-bottom:15px;
    width:32vw;
    border-radius:20px;
-   padding:10px;
-   background-color:rgb(224, 187, 224);
-   
+   padding:10px;   
 }
 
 .datadiv {
