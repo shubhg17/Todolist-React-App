@@ -1,5 +1,5 @@
 
-// function Card() {
+// function Navbar() {
 //    return (
 //       <>
 //       </>
